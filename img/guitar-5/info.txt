@@ -1,0 +1,43 @@
+Reaper 7 multi scale - Sky Burst Schecter
+marca	
+Schecter
+Modelo	
+Reaper-7 Multiscale
+Acabado	
+Sky Burst
+Categorías	
+Cuerpo sólido
+Estilo del terminado	
+Satín
+Confección del mástil	
+Mástil encolado
+Familia de colores	
+Azul
+Para derechos / Para zurdos	
+Para derechos
+Forma del Cuerpo	
+Estilo S
+Numero de cuerdas	
+7 cuerdas
+Material del cuello	
+Arce
+Cuerpo asimétrico	
+Cuerpo sin Offset
+Patrón de finalización	
+Sunburst
+Tipo De Cuerpo	
+Cuerpo sólido
+Material del cuerpo	
+Fresno
+Configuración de la pastilla	
+HH
+Material del mástil	
+Ébano
+Tipo de puente/cordal	
+Cuerdas a través del cuerpo
+Estilo tapa de madera	
+Con nudos
+Longitud de la escala	
+25,5"
+Número de trastes	
+24

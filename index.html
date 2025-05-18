@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitarras Ormsby</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo">
+             <h1>Guitarras Ormsby</h1>
+            <img src="./img/logo.fw.png" alt="Imagen principal" style="width: 90px;">
+        </div>
+    <!-- Input checkbox oculto para controlar el estado -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+    
+    <!-- Label que actuará como botón hamburguesa -->
+    <label for="menu-toggle" class="hamburger" aria-label="Menú principal">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </label>
+    
+    <!-- Menú de navegación -->
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#reseñas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="contenido-principal padding-top">
+        <section id="inicio" class="seccion inicio">
+            <div class="padding-top">
+                <h2>Bienvenidos</h2>
+                <div class="multimedia">
+                    <!-- <img src="./img/unnamed.jpg" alt="Imagen principal" class="imagen-destacada" style="width: 300px;"> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/p4GnFfE8BI4?si=uIQWX_vNeVGdzt5y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="banner-one"></div>
+        </section>
+
+        <section id="productos" class="seccion productos">
+            <h2>Nuestros Productos</h2>
+            <div class="contenedor-productos">
+                <!-- Cards de productos -->
+                <article class="card-producto">
+                    <img src="./img/guitar-1/Run16-193.webp" alt="Producto 1" class="img-size">
+                    <h3>Hype GTR Run 16</h3>
+                    <label for="popup-toggle" class="descripcion-producto">Descripción del producto 1</label>
+                </article>
+                <input type="checkbox" id="popup-toggle">
+                <!-- Popup -->
+                 <div class="popup-overlay">
+                    <div class="popup-content">
+                    <h2>Hype GTR Run 16</h2>
+                    <ul class="specs-list">
+                        <li><span>Longitud de escala:</span> 6 cuerdas: 25.5 - 27.5", 7 cuerdas: 25.5 - 27.8", 8 cuerdas: 25.5 - 28.3" (diestro)</li>
+                        <li><span>Cuerpo:</span> Caoba</li>
+                        <li><span>Tipo de mástil:</span> Mástil encolado</li>
+                        <li><span>Mástil:</span> Arce laminado</li>
+                        <li><span>Forma del mástil:</span> 19.0 (1er traste) - 21.0 (17º traste), forma D revisada</li>
+                        <li><span>Refuerzos de carbono:</span> Sí</li>
+                        <li><span>Diapasón:</span> Arce</li>
+                        <li><span>Trastes:</span> Jumbo de acero inoxidable</li>
+                        <li><span>Incrustaciones:</span> Puntos negros con patrón Z</li>
+                        <li><span>Marcadores laterales:</span> Brillan en la oscuridad</li>
+                        <li><span>Color del hardware:</span> Cromo</li>
+                        <li><span>Puente:</span> Ormsby Custom Multiescala</li>
+                        <li><span>Clavijas:</span> Ormsby con bloqueo</li>
+                        <li><span>Electrónica:</span> Volumen 500k, Tono 500k con Push/Pull + selector de 3 posiciones</li>
+                        <li><span>Micrófono del puente:</span> Humbucker Hot Rock</li>
+                        <li><span>Micrófono del mástil:</span> Humbucker De La Creme</li>
+                        <li><span>Acabado:</span> Satinado</li>
+                        <li><span>Estuche:</span> Funda incluida</li>
+                    </ul>
+                    <label for="popup-toggle" class="cerrar-popup">Cerrar</label>
+                    </div>
+                </div>
+                <!-- Fin Popup -->
+                <article class="card-producto">
+                    <img src="./img/guitar-2/c9dkg3lda4m36oordwip.webp" alt="Producto 2" class="img-size">
+                    <h3>LEGATOR Ninja X 6-string multi Galaxy</h3>
+                    <label for="popup-toggle-legator" class="descripcion-producto">Ver descripción LEGATOR Ninja X</label>
+                </article>
+                <input type="checkbox" id="popup-toggle-legator">
+                <!-- Popup LEGATOR -->
+                <div class="popup-overlay">
+                    <div class="popup-content">
+                        <h2>LEGATOR Ninja X 6 cuerdas - Galaxy</h2>
+                        <ul class="specs-list">
+                        <li><span>Forma del cuerpo:</span> Doble corte</li>
+                        <li><span>Tipo de cuerpo:</span> Cuerpo sólido</li>
+                        <li><span>Tapa:</span> Buckeye Burl maciza grado 5A</li>
+                        <li><span>Madera del cuerpo:</span> Caoba</li>
+                        <li><span>Acabado del cuerpo:</span> Poliuretano</li>
+                        <li><span>Forma del mástil:</span> C moderna tallada a mano</li>
+                        <li><span>Madera del mástil:</span> 5 piezas de Wenge y Arce</li>
+                        <li><span>Unión del mástil:</span> Atornillado</li>
+                        <li><span>Longitud de escala:</span> Multiescala 25.5–27 pulgadas</li>
+                        <li><span>Acabado del mástil:</span> Poliuretano satinado</li>
+                        <li><span>Diapasón:</span> Ébano</li>
+                        <li><span>Radio:</span> 14 pulgadas</li>
+                        <li><span>Trastes:</span> Medium Jumbo de acero inoxidable</li>
+                        <li><span>Número de trastes:</span> 24</li>
+                        <li><span>Incrustaciones:</span> Puntos desplazados</li>
+                        <li><span>Cejuela:</span> 42.8 mm (1.687")</li>
+                        <li><span>Configuración de pastillas:</span> HH</li>
+                        <li><span>Pastilla mástil:</span> Humbucker Alnico</li>
+                        <li><span>Pastilla puente:</span> Humbucker Cerámica</li>
+                        <li><span>Marca de pastillas:</span> Fishman Fluence Modern</li>
+                        <li><span>Tipo de pastillas:</span> Activas</li>
+                        <li><span>Electrónica especial:</span> Tesi LED Kill Switch</li>
+                        <li><span>Controles:</span> Volumen master con Push/Pull</li>
+                        <li><span>Selector de pastillas:</span> Toggle de 5 posiciones</li>
+                        <li><span>Kill switch:</span> Sí</li>
+                        <li><span>Tipo de puente:</span> Fijo</li>
+                        <li><span>Diseño del puente:</span> Monorail con selletas individuales</li>
+                        <li><span>Cuerdas a través del cuerpo:</span> Sí</li>
+                        <li><span>Clavijas:</span> Legator con bloqueo, relación 18:1</li>
+                        <li><span>Color del hardware:</span> Negro</li>
+                        <li><span>Número de cuerdas:</span> 6</li>
+                        <li><span>Características especiales:</span> Multiescala</li>
+                        <li><span>Estuche:</span> Incluye estuche rígido</li>
+                        <li><span>Origen:</span> Corea del Sur</li>
+                        </ul>
+                        <label for="popup-toggle-legator" class="cerrar-popup">Cerrar</label>
+                    </div>
+                </div>
+                <article class="card-producto">
+                    <img src="./img/guitar-3/gkxfmze41mbj9rupbfka.webp" alt="Producto 3" class="img-size">
+                    <h3>Solar Guitars S1.6PB</h3>
+                     <label for="popup-toggle-solar" class="descripcion-producto">Ver descripción Solar S1.6PB</label>
+                </article>
+                <input type="checkbox" id="popup-toggle-solar">
+
+                <!-- Popup SOLAR -->
+                <div class="popup-overlay">
+                    <div class="popup-content">
+                        <h2>Solar Guitars S1.6PB – Poplar Burst Matte</h2>
+                        <ul class="specs-list">
+                            <li><span>Marca:</span> Solar Guitars</li>
+                            <li><span>Modelo:</span> S1.6PB – POPLAR BURST MATTE</li>
+                            <li><span>Categoría:</span> Cuerpo sólido</li>
+                            <li><span>Años de fabricación:</span> 2020 - 2023</li>
+                            <li><span>Origen:</span> Suecia</li>
+                            <li><span>Orientación:</span> Para derechos</li>
+                            <li><span>Número de cuerdas:</span> 6 cuerdas</li>
+                            <li><span>Tipo de cuerpo:</span> Cuerpo sólido</li>
+                        </ul>
+                        <label for="popup-toggle-solar" class="cerrar-popup">Cerrar</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas" class="seccion reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="contenedor-reseñas">
+                <div class="reseña">
+                    <h3>Santiago</h3>
+                    <p>"Compré la Hype GTR Run 16 y superó mis expectativas. El acabado multiescala es impecable y la atención del vendedor fue excelente, resolvieron todas mis dudas al instante."</p>
+                </div>
+                <div class="reseña">
+                    <h3>Leonel</h3>
+                    <p>“Primera vez que pruebo una Ormsby y estoy encantado. La Run 16 es comodísima para tocar metal progresivo. El local tiene buena variedad y la atención fue muy profesional.”</p>
+                </div>
+                <div class="reseña">
+                    <h3>Marianela</h3>
+                    <p>“Excelente servicio y producto. Me ayudaron a elegir la Hype GTR perfecta para mi estilo. Ormsby se convirtió en mi nueva marca favorita.”</p>
+                </div>
+            </div>
+            <div class="banner">
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion contacto">
+            <div class="espacio-button">
+                <h2 class="contacto-title">Contacto</h2>
+                <form class="formulario-contacto" action="https://formspree.io/f/xyzwoogy" method="POST">
+                    <div class="grupo-formulario">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="boton-enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2025 Guitarras Ormsby. Todos los derechos reservados.</p>
+        <!-- <div class="redes-sociales">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div> -->
+    </footer>
+    <a href="#inicio" class="boton-subir" title="Volver arriba">↑</a>
+</body>
+
+</html>

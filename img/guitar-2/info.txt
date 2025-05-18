@@ -1,0 +1,35 @@
+LEGATOR Ninja X 6-string multi Galaxy
+Body shape: Double cutaway
+    Body type: Solid body
+    Top wood: 5A Solid Buckeye Burl Top
+    Body wood: Mahogany
+    Body finish: Polyurethane   Neck
+    Neck shape: Hand-shaped Modern C
+    Neck wood: 5-piece Wenge/maple
+    Joint: Bolt-on
+    Scale length: Multi-scale 25.5–27 in.
+    Neck finish: Satin Poly   Fingerboard
+    Material: Ebony
+    Radius: 14 in.
+    Fret size: Medium jumbo Stainless Steel
+    Number of frets: 24
+    Inlays: Offset Dots
+    Nut Width: 1.687 in. (42.8 mm)   Pickups
+    Configuration: HH
+    Neck: Alnico humbucker
+    Bridge: Ceramic humbucker
+    Brand: Fishman Fluence Modern
+    Active or passive: Active
+    Special electronics: Tesi LED Killswitch   Controls
+    Control layout: Master volume Push Pull
+    Pickup switch: 5-way toggle
+    Kill switch: yes   Hardware
+    Bridge type: Fixed
+    Bridge design: Single Saddle Monorail
+    Tailpiece: String-thru body
+    Tuning machines: Legator Locking 18:1 Ratio Tuners
+    Color: Black   Other
+    Number of strings: 6
+    Special features: Multi-scale
+    Case: Hardshell Case
+    Country of origin: South Korea
